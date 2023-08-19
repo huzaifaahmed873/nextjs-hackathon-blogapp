@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.mainback{
+  background: #1c7dff;
+}
+.maincol{
+  color: #1c7dff;
+}
+.colowhite{
+  color: #fff !important;
+}
+.myheader{
+  display: flex;
+  position: absolute;
+  top: 0;
+}
+.myheader-left{
+  width: 200px;
+}
+.myheader-rig{
+  flex: 1;
+}
+.mtheader-rig-con{
+  display: flex;
+
+}
+.listnav{
+  margin-right: 25px;
+}
+.mainpagelist{
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.listproduct{
+  width:  90%;
+  /* margin-bottom: 15px; */
+  list-style: none;
+  margin: 0 auto 15px;
+}
+.listproduct-main{
+  background-color: #ffff;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #1c7dff;
+  border: 2px solid #fff;
+}
+.listproduct-main p{
+  font-size: 20px;
+  font-weight: 700;
+  color: #1c7dff;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 3px;
+}
+.listproduct-main div{
+  font-size: 16px;
+}
+.mr-top{
+  margin-top: 58px;
+}
+.morninglist{
+  width: 90%;
+  margin: 0px auto ;
+  padding-top: 30px;
+}
+.morninglist h6{
+  font-size: 35px;
+  color: #1c7dff;
+  font-weight: 700;
+}
+.inputdata{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.inputdata-main{
+  display: flex;
+  width: 100%;
+}
+.input-data-field{
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+.addtodo{
+  text-align: right;
+  margin-bottom: 20px;
+}
+.addtodo-btn{
+  margin: 0px 12px 0px 0px;
+  padding: 7px 15px;
+  color: #fff;
+  background: #1c7dff;
+  box-shadow: 1px 1px 5px #1c7dff;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 2px solid #fff;
+
+}
+.logoutbtn{
+  padding-top: 20px;
+  margin-bottom: 0px !important;
+}
+.mr-single-top{
+  margin-top: 15px !important;
+}
+.listproduct-main-date{
+  display: block;
+  text-align: end;
+  font-weight: 500;
+  font-size: 12px;
+}
